@@ -45,7 +45,7 @@ fi
 #
 NGINX_URL="https://s3.amazonaws.com/${S3_BUCKET}/nginx-${NGINX_VERSION}-heroku.tar.gz"
 #PHP_URL="https://s3.amazonaws.com/${S3_BUCKET}/php-${PHP_VERSION}-with-fpm-heroku.tar.gz"
-PHP_URL="http://dev.jedlin.com/files/http://dev.jedlin.com/files/php-${PHP_VERSION}-with-fpm-heroku.tar"
+PHP_URL="http://dev.jedlin.com/files/php-${PHP_VERSION}-with-fpm-heroku.tar"
 WORDPRESS_URL="http://wordpress.org/wordpress-${WORDPRESS_VERSION}.tar.gz"
 #
 
