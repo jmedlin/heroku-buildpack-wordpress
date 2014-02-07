@@ -46,6 +46,7 @@ vulcan build -v -s php-$PHP_VERSION -o $tempdir/php-$PHP_VERSION-with-fpm-heroku
                 --with-openssl \
                 --enable-fpm \
                 --with-zlib \
+		--enable-soap \
                 --enable-mbstring \
                 --disable-debug \
                 --disable-rpath \
