@@ -29,7 +29,7 @@ if [ -z "$NGINX_VERSION" ]; then
 fi
 
 if [ -z "$PHP_VERSION" ]; then
-  PHP_VERSION=5.5.2
+  PHP_VERSION=5.4.25
 fi
 
 if [ -z "$WORDPRESS_VERSION" ]; then
@@ -44,7 +44,8 @@ fi
 
 #
 NGINX_URL="https://s3.amazonaws.com/${S3_BUCKET}/nginx-${NGINX_VERSION}-heroku.tar.gz"
-PHP_URL="https://s3.amazonaws.com/${S3_BUCKET}/php-${PHP_VERSION}-with-fpm-heroku.tar.gz"
+#PHP_URL="https://s3.amazonaws.com/${S3_BUCKET}/php-${PHP_VERSION}-with-fpm-heroku.tar.gz"
+PHP_URL="http://dev.jedlin.com/files/http://dev.jedlin.com/files/php-${PHP_VERSION}-with-fpm-heroku.tar.gz"
 WORDPRESS_URL="http://wordpress.org/wordpress-${WORDPRESS_VERSION}.tar.gz"
 #
 
